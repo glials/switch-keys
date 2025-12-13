@@ -10,4 +10,4 @@ body {
 /**
  * Import all Keyboard stylesheets
  */
-@import "./keyboards/logitech-k380/keyboard.css";
+@import "./keyboards/templates/logitech-k380/keyboard.css";
