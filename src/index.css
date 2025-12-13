@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@import "./stylesheets/fonts.css";
+@import "./stylesheets/theme.css";
+
+body {
+  font-family: 'Google Sans', system-ui, -apple-system, sans-serif;
+}
+
+/**
+ * Import all Keyboard stylesheets
+ */
+@import "./keyboards/logitech-k380/keyboard.css";
