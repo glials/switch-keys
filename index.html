@@ -8,8 +8,27 @@
   </head>
   <body class="bg-neutral-800 text-gray-100 min-h-screen">
 
+    <div class="fixed bottom-0 left-4 z-50 rounded-lg p-4 max-w-xs">
+      <div class="inline-flex rounded-lg border border-neutral-600 bg-neutral-800 overflow-hidden mb-3">
+        <button
+          id="mode-linux"
+          class="px-6 py-2 text-sm font-medium transition-colors bg-neutral-600 text-white border-r border-neutral-600">
+          Linux / Windows
+        </button>
+        <button
+          id="mode-macos"
+          class="px-6 py-2 text-sm font-medium transition-colors hover:bg-neutral-600 text-gray-300">
+          macOS
+        </button>
+      </div>
+
+      <p id="mode-explanation" class="text-xs text-gray-400 leading-relaxed">
+        Commands will use <span class="text-blue-400 font-medium">Ctrl+C</span>, <span class="text-blue-400 font-medium">Ctrl+V</span>, <span class="text-blue-400 font-medium">Alt+Tab</span>, etc.
+      </p>
+    </div>
+
     <div class="absolute bottom-4 left-0 right-0 flex items-center justify-center">
-      <h1 class="text-xl font-bold font-sans">keyboard-ls</h1>
+      <h1 class="text-2xl font-bold font-sans">keyboard-ls</h1>
     </div>
 
     <div data-tauri-drag-region class="fixed top-0 left-0 right-0 h-12 z-40"></div>
