@@ -1,6 +1,12 @@
-# keyboard-ls
+<br />
 
-A desktop app for viewing and exploring keyboard layouts. Built with [Tauri 2](https://v2.tauri.app/), [Vite](https://vite.dev/), TypeScript, and Tailwind CSS.
+<p align="center">
+  <img src="logo.png" />
+</p>
+
+<center>
+A desktop app for viewing and exploring keyboard layouts. Built with <a href="https://v2.tauri.app" target="_blank">Tauri 2</a>, <a href="https://vite.dev" target="_blank">Vite</a>, TypeScript, and Tailwind CSS.
+</center>
 
 ## Prerequisites
 
